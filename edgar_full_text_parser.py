@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Extracting Material Contracts via Edgar Full Text Search Parser
+Extracting 10-K Appendices via Edgar Full Text Search Parser
 =============================
 This script searches the Edgar database for specific filings, parses the results,
 and outputs the download link and details into a pandas DataFrame. The download links can be used to scrape
@@ -15,6 +15,15 @@ import pandas as pd
 from selenium import webdriver
 from bs4 import BeautifulSoup
 
+# INPUT PARAMETERS
+search_term = "Loan Agreement ex 10"
+form = "10-K"
+start_date = '2024-02-10'
+end_date = '2024-02-15'
+max_page = 3
+# Insert page length to control the time, depends on the number of expected hits 
+# Maximum of 10 pages for the full text search (~10*130 Results maximum), although more results exists, therefore daily pull
+
 # Function to format search terms and dates
 def format_search_term(term):
     return term.replace(" ", "%2520")
@@ -22,13 +31,6 @@ def format_search_term(term):
 def format_dates(start_date, end_date):
     dates = pd.date_range(start_date, end_date, freq='D')
     return dates.strftime('%Y-%m-%d').tolist()
-
-# INPUT PARAMETERS
-search_term = "Loan Agreement ex 10"
-form = "10-K"
-start_date = '2024-02-10'
-end_date = '2024-02-15'
-max_page = 3
 
 # Set up the web driver
 driver = webdriver.Chrome()
