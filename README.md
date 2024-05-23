@@ -1,6 +1,6 @@
 # Alternative-Data-Accounting-Research
 
-This repository is my introduction to Github and contains scripts to gather alternative data, compared to the conventional data provider like compustat or crsp. I hope these scripts help (junior) researcher to pursue research questions and other interested readers.
+This repository is my introduction to Github and contains some scripts to gather alternative data, compared to the conventional data provider like compustat or crsp. I hope these scripts help (junior) researcher to pursue research questions and other interested readers.
 
 ## Table of Contents
 
