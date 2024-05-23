@@ -3,8 +3,8 @@
 Extracting Material Contracts via Edgar Full Text Search Parser
 =============================
 This script searches the Edgar database for specific filings, parses the results,
-and outputs the download link and details into a pandas DataFrame. The download links can be used to download
-e.g. material contracts from these filings via BeautifulSoup, and there are lots of beautiful existing tutorials to do that.
+and outputs the download link and details into a pandas DataFrame. The download links can be used to scrape
+e.g. material contracts from these filings, and there are lots of beautiful existing scraping tutorials to do that.
 
 Author: Keno Buß
 Date: 23.05.2024
