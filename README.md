@@ -6,9 +6,6 @@ This repository is my introduction to Github and contains scripts to gather alte
 
 - [Edgar Full Text Search Parser](#Edgar-Full-Text-Search-Parser)
 - [Global Database of Events, Language, and Tone (GDELT)](#Global-Database-of-Events,-Language,-and-Tone-(GDELT))
-- [Setup](#setup)
-- [Usage](#usage)
-- [License](#license)
 
 ## Edgar Full Text Search Parser
 
