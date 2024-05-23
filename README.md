@@ -1,6 +1,6 @@
-# Extracting Material Contracts via Edgar Full Text Search Parser
+# Alternative-Data-Accounting-Research
 
-This project contains a script that searches the Edgar database for specific filings, parses the results, and outputs the download link and details into a pandas DataFrame. The download links can be used to download material contracts from these filings via BeautifulSoup.
+This repository is my introduction to Github and contains scripts to gather alternative data (compared to the conventional data provider like compustat or crsp). I hope these scripts help (junior) researcher to pursue research questions.
 
 ## Table of Contents
 
