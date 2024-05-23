@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Extracting 10-K Appendices via Edgar Full Text Search Parser
+Extracting 10-K Exhibits via Edgar Full Text Search Parser
 =============================
 This script searches the Edgar database for specific filings, parses the results,
 and outputs the download link and details into a pandas DataFrame. The download links can be used to scrape
