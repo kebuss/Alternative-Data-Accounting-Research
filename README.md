@@ -17,4 +17,6 @@ You can find the main script [here](https://github.com/kebuss/Alternative-Data-A
 
 This script helps to download location specific news tone data from the GDELT (Global Database of Events, Language, and Tone) using version 2 of the GDELT API. The script facilitates the extraction of global news event data from the GDELT Project, a comprehensive database that monitors news media from around the world in real-time. By querying the GDELT version 2 API for specific date ranges, the script retrieves detailed event records and processes them to focus on events occurring in the United States. The Global Database of Events, Language, and Tone (GDELT) monitors broadcast, print, and web news from nearly every corner of the globe in over 100 languages, updating every 15 minutes to provide a real-time pulse of global events. This data can be particularly useful for researchers and professionals interested in global trends and events. For more information, visit the [GDELT Project website](https://www.gdeltproject.org).
 
-You can find the main script [here](https://github.com/kebuss/Alternative-Data-Accounting-Research/blob/main/gdelt_pull.py).
+You can find the main script [here](https://github.com/kebuss/Alternative-Data-Accounting-Research/blob/main/gdelt_pull.py). 
+
+Feel free to cite our work if you use the script [Heterogeneous Priors and Information Choices: Evidence from Sell-Side Financial Analysts](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4719800)
