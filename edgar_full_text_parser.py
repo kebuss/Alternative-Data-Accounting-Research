@@ -11,7 +11,6 @@ Date: 23.05.2024
 """
 
 import time
-#from datetime import datetime, timedelta
 import pandas as pd
 from selenium import webdriver
 from bs4 import BeautifulSoup
