@@ -72,7 +72,7 @@ for date in dates:
         for ec in soup.findAll('td', class_="incorporated d-none"):
             incorporated.append(ec.text.strip())
         for cik in soup.findAll('td', class_="cik d-none"):
-            ciks.append(cik.text.strip())
+            ciks.append(str(cik)[37:47])
         for acc in soup.findAll('a', class_="preview-file"):
             adsh = acc['data-adsh']
             accessions.append(adsh.replace("-", ""))
